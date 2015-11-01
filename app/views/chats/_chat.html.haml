@@ -3,3 +3,4 @@
     = chat.message
   .date
     = chat.created_at.to_s(:short)
+    = link_to "X", chat_path(chat), method: :delete, remote: true

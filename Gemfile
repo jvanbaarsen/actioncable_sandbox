@@ -16,6 +16,7 @@ gem 'turbolinks'
 gem 'bcrypt', '~> 3.1.7'
 gem "haml"
 gem "haml-rails", "~> 0.9"
+gem "puma"
 
 group :development, :test do
   gem 'byebug'
