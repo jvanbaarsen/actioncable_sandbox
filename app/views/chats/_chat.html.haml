@@ -1,0 +1,5 @@
+=content_tag :div, id: dom_id(chat), class: "chat-message" do
+  .message
+    = chat.message
+  .date
+    = chat.created_at.to_s(:short)

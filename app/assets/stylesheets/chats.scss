@@ -1,0 +1,23 @@
+.new-message {
+  padding: 10px;
+  margin: 10px;
+  overflow: auto;
+}
+.messages {
+  .chat-message {
+    min-height: 30px;
+    background: #eee;
+    border: 1px solid darken(#eee, 20);
+    padding: 10px;
+    margin: 10px;
+    .date {
+      float: right;
+      width: 100px;
+      color: darken(#eee, 20);
+    }
+    .message {
+      width: calc(100% - 100px);
+      float: left;
+    }
+  }
+}
